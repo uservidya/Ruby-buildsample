@@ -3,7 +3,7 @@ rvm:
   - 1.9.2
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
-notification:
+notifications:
   email: 
     recipients:
       - vidya_test1@yahoo.in
