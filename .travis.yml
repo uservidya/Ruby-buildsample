@@ -2,7 +2,7 @@ language : python
 rvm:
   - 1.9.2
 env:
-  - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
+  - CI_REPORT=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 notifications:
   email: 
     recipients:
