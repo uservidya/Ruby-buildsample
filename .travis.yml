@@ -1,4 +1,4 @@
-language : java
+language : rubi
 rvm:
   - 1.9.2
 env:
