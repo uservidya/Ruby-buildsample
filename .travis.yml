@@ -1,8 +1,8 @@
-language : python
+language : ruby
 rvm:
   - 1.9.2
 env:
-  - CI_REPORT=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
+  - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 notifications:
   email: 
     recipients:
