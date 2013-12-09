@@ -1,5 +1,5 @@
-require 'simplecov'
-require 'simplecov-csv'
-SimpleCov.formatter = SimpleCov::Formatter::CSVFormatter
-SimpleCov.coverage_dir(ENV["COVERAGE_REPORTS"])
-SimpleCov.start
+require 'Rcov'
+require 'Rcov-csv'
+RCov.formatter = RCov::Formatter::CSVFormatter
+RCov.coverage_dir(ENV["COVERAGE_REPORTS"])
+RCov.start
