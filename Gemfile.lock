@@ -16,8 +16,8 @@ GEM
     rspec-mocks (2.14.3)
     Rcov (0.7.1)
       multi_json (~> 1.0)
-        Rcov-csv (0.1.3)
-      Rcov
+        rcov-csv (0.1.3)
+      rcov
     
 
 PLATFORMS
@@ -26,5 +26,5 @@ PLATFORMS
 DEPENDENCIES
   ci_reporter
   rspec
-  Rcov
-  Rcov-csv
+  rcov
+  rcov-csv
