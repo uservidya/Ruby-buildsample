@@ -6,4 +6,4 @@ env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 notifications:
     email:
-        - vidya_test1@yahoo.com  
+        - vidya@shippable.com
