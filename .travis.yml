@@ -4,3 +4,7 @@ rvm:
   - 1.8
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
+notifications:
+    email:
+        - vidyatest@hotmail.com
+        - vidya@shippable.com
