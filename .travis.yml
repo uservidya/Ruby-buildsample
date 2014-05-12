@@ -6,6 +6,4 @@ env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 notifications:
     email:
-        - vidyac.raghav@gmail.com
-        - vidyatest@hotmail.com
-
+        - vidya_test1@yahoo.com  
